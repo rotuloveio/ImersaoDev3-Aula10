@@ -1,0 +1,126 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/2853757.jpg");
+	font-family: "Roboto Mono", monospace;
+}
+
+.container {
+	background: #000000;
+	margin: 64px;
+	border-radius: 20px;
+	color: #00ff00;
+	padding: 64px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+
+.perfil {
+	display: flex;
+}
+
+.perfil-foto {
+	border-radius: 460px;
+	max-height: 160px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.titulo h3 {
+	font-weight: 400;
+	font-size: 24;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	background: #101010;
+	margin-top: 32px;
+	border-radius: 20px;
+	padding: 32px;
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+ul {
+	list-style-type: none;
+}
+
+.projetos-item a {
+	color: #00ff00;
+	text-decoration: none;
+}
+
+.ico {
+	max-height: 30px;
+	border-radius: 30px;
+	background-color: #ffffff;
+}
+
+.projetos-titulo {
+	list-style: none;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.projetos-item {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 56px;
+}
+
+.tema button {
+	align-self: flex-end;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 8px 16px;
+	background: #101010;
+	border-radius: 100px;
+	color: #00ff00;
+}
+
+.light {
+	background: url("https://www.teahub.io/photos/full/15-156299_blue-matrix-wallpapers-picture-sdeerwallpaper-data-src.jpg");
+}
+
+.light .container {
+	background: #146e8e;
+}
+
+.light .projetos {
+	color: #dee9ec;
+	background-color: #2596be;
+}
+
+.light .cabecalho {
+	color: #dee9ec;
+}
+
+.light .tema button {
+	background: #2596be;
+	color: #dee9ec;
+	border: 2px solid #f7f7f7;
+}
+
+iframe {
+	height: 400px;
+	width: 500px;
+	border: none;
+	border-radius: 20px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1em 0;
+	padding: 1em;
+}
